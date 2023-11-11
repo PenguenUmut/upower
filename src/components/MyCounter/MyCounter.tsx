@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './MyCounter.scss'
 
 type Props = {
   value?: number
@@ -15,7 +16,7 @@ const MyCounter = ({ value = 0 }: Props) => {
   }
 
   return (
-    <div>
+    <div className='my-counter'>
       <h1>Counter: {counter}</h1>
       <button onClick={onMinus}>-</button>
       <button onClick={onPlus}>+</button>
