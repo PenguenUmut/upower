@@ -3084,10 +3084,10 @@ update-browserslist-db@^1.0.13:
     escalade "^3.1.1"
     picocolors "^1.0.0"
 
-upower@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/upower/-/upower-0.1.0.tgz#0e597322ea0258a958ca0d29e75c2ddbd96b1d0a"
-  integrity sha512-rFYwt2bEwORyt52R60SMOmyyoIaIEx1IUu7aQwVIRDU2FXQlJyI0eMp1Spy5SIF49R5JtAc+ehGQSb/yTO8Owg==
+upower@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/upower/-/upower-0.5.0.tgz#01410305a42688a6c6664f3a7cf8e14e32d5308b"
+  integrity sha512-bMPGuHnAVzf2+uXJp6sQliabS2+uOmKoNojg9GidS1wP/x9amYyudiY/PGuuP31U+CDybLUHSFr4ZS5iaEgaHA==
 
 uri-js@^4.2.2:
   version "4.4.1"
