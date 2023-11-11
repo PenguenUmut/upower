@@ -5,6 +5,7 @@ import { MyCounter4 } from 'upower'
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 
 console.log('MyCounter4', MyCounter4)
+
 root.render(
   <React.StrictMode>
     <div>
@@ -14,7 +15,7 @@ root.render(
     <hr />
     <div>
       <h2>Counter with predefined value</h2>
-      {/* <MyCounter value={5} /> */}
+      <MyCounter4 value={5} />
     </div>
   </React.StrictMode>,
 )

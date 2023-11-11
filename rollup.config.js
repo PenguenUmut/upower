@@ -3,7 +3,7 @@ import commonjs from '@rollup/plugin-commonjs'
 import typescript from '@rollup/plugin-typescript'
 import peerDepsExternal from 'rollup-plugin-peer-deps-external'
 import postcss from 'rollup-plugin-postcss'
-import scss from 'rollup-plugin-scss'
+// import scss from 'rollup-plugin-scss'
 // import dts from 'rollup-plugin-dts'
 
 export default [
@@ -26,8 +26,7 @@ export default [
       resolve(),
       typescript({ tsconfig: './tsconfig.json' }),
       commonjs(),
-      scss(),
-      postcss({ modules: true }),
+      postcss({ extract: false, modules: true, use: ['sass'] }),
     ],
   },
   /* ,
