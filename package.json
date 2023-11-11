@@ -1,6 +1,6 @@
 {
   "name": "upower",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Any React Component Library",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
@@ -29,8 +29,7 @@
   ],
   "keywords": [
     "react",
-    "typescript",
-    "awesome-project"
+    "upower"
   ],
   "author": "Penguen Umut (PenguenUmut)",
   "license": "MIT",
