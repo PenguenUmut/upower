@@ -1,1 +1,1 @@
-export * from './components'
+export { MyCounter4 } from './MyCounterComponent/MyCounterComponent'

@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
-import './MyCounter.scss'
+import styles from './MyCounterComponent.module.scss'
 
 type Props = {
   value?: number
 }
-const MyCounter = ({ value = 0 }: Props) => {
+
+export const MyCounter4 = ({ value = 0 }: Props) => {
   const [counter, setCounter] = useState(value)
 
   const onMinus = () => {
@@ -16,12 +17,10 @@ const MyCounter = ({ value = 0 }: Props) => {
   }
 
   return (
-    <div className='my-counter'>
+    <div className={styles.myCounter}>
       <h1>Counter: {counter}</h1>
       <button onClick={onMinus}>-</button>
       <button onClick={onPlus}>+</button>
     </div>
   )
 }
-
-export default MyCounter
